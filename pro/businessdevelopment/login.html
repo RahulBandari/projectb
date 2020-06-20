@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+	/*set border to the form*/ 
+	
+	form { 
+		 
+	} 
+	/*assign full width inputs*/ 
+	
+	input[type=text],<br> 
+	input[type=password]<br> { 
+		width: 100%; 
+		padding: 30px; 
+		margin: 30px 50; 
+		display: inline-block; 
+		border: 10px solid #ccc; 
+		box-sizing: border-box;
+		text-align: center; 
+	}
+	/*set a style for the buttons*/ 
+	
+	button { 
+		background-color: #4CAF50; 
+		color: white; 
+		padding: 5px 6px; 
+		margin: 8px 15px; 
+		border: none; 
+		cursor: pointer; 
+		width: 10%; 
+	} 
+	/* set a hover effect for the button*/ 
+	
+	
+	/*set extra style for the cancel button*/ 
+	
+	.cancelbtn { 
+		width: auto; 
+		padding: 10px 10px; 
+		background-color: #f44336; 
+	} 
+	
+	} 
+	/*set padding to the container*/ 
+	
+	.container { 
+		padding: 100px; 
+	} 
+	/*set the forgot password text*/ 
+	
+	span.psw { 
+		float: right; 
+		padding-top: 50px; 
+	} 
+	/*set styles for span and cancel button on small screens*/ 
+	
+	@media screen and (max-width: 30px) { 
+		span.psw { 
+			display: block; 
+			float: none; 
+		} 
+		.cancelbtn { 
+			width:50%; 
+		} 
+	} 
+</style> 
+
+<body background="1234.jpg"> 
+<center>
+	<b><u><h1>Login page</h1></u></b>
+	<form action="index.php" method="post">
+            
+		<div class="container" style="">
+	
+				<h1><label><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="Username" required ><br></h1>
+
+			<h2><label><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" required><br></h2>
+			<a href="home3.html">
+			<button type="submit" name="loginbtn">Login</button> <br>
+			<input type="checkbox" checked="checked"> Remember me 
+
+		</div> 
+
+		<div class="container" style=""> 
+			<button type="cancel" class="cancel">Cancel</button> 
+			<span class="psw"><a href="usersignup.html">signup</a></span>
+			
+			</center> 
+		</div> 
+	</form> 
+
+</body> 
+
+</html>

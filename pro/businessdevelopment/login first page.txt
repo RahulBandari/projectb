@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+	/*set border to the form*/ 
+	
+	form { 
+		border: 10px solid #f1f1f1;
+		text-align: center; 
+	} 
+	/*assign full width inputs*/ 
+	
+	input[type=text],<br> 
+	input[type=password]<br> { 
+		width: 100%; 
+		padding: 10px; 
+		margin: 8px 0; 
+		display: inline-block; 0
+		border: 10px solid #ccc; 
+		box-sizing: border-box;
+		text-align: center; 
+	}
+	/*set a style for the buttons*/ 
+	
+	button { 
+		background-color: #4CAF50; 
+		color: white; 
+		padding: 5px 6px; 
+		margin: 8px 15px; 
+		border: none; 
+		cursor: pointer; 
+		width: 5%; 
+	} 
+	/* set a hover effect for the button*/ 
+	
+	
+	/*set extra style for the cancel button*/ 
+	
+	.cancelbtn { 
+		width: auto; 
+		padding: 10px 10px; 
+		background-color: #f44336; 
+	} 
+	
+	} 
+	/*set padding to the container*/ 
+	
+	.container { 
+		padding: 0px; 
+	} 
+	/*set the forgot password text*/ 
+	
+	span.psw { 
+		float: right; 
+		padding-top: 20px; 
+	} 
+	/*set styles for span and cancel button on small screens*/ 
+	
+	@media screen and (max-width: 30px) { 
+		span.psw { 
+			display: block; 
+			float: none; 
+		} 
+		.cancelbtn { 
+			width:50%; 
+		} 
+	} 
+</style> 
+
+<body> 
+<center>
+	<u><ul><h1>Business Developement Professional </h1></ul></u>
+	<h2>login page</h2> 
+	
+				<h3><label><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required ><br></h3>
+
+			<h3><label><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required><br></h3>
+			<button type="submit">Login</button> <br>
+			<input type="checkbox" checked="checked"> Remember me 
+
+		</div> 
+
+		<div class="container" style="background-color:#f1f1f1"> 
+			<button type="button" class="cancelbtn">Cancel</button> 
+			<span class="psw">Forgot <a href="#">password?</a></span>
+			</center> 
+		</div> 
+	</form> 
+
+</body> 
+
+</html>
